@@ -347,9 +347,22 @@ body.mobile-menu-open::after {
 }
 /* END TESTIMONIALS SECTION */
 
+/* CTA SECTION */
+section.cta {
+	padding: 4rem 2rem;
+	text-align: center;
+}
+section.cta p {
+	font-size: 2.3rem;
+	line-height: 3rem;
+	margin-bottom: 2rem;
+	color: white;
+}
+/* END CTA SECTION */
 .attribution {
 	font-size: 11px;
 	text-align: center;
+	order: 5;
 }
 .attribution a {
 	color: hsl(228, 45%, 44%);

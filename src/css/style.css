@@ -49,6 +49,10 @@ img {
 	width: 100%;
 	height: auto;
 }
+header img {
+	margin-top: 1rem;
+	width: 80%;
+}
 /* END LAYOUT */
 
 /* COLORS AND TYPOGRAPHY */

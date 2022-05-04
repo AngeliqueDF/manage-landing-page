@@ -231,12 +231,18 @@ body.mobile-menu-open::after {
 }
 /* END HERO SECTION */
 
+.hero > div h2,
+.features > div h2 {
+	line-height: 3rem;
 }
 /* FEATURES SECTION */
+.features {
+	margin-bottom: 4rem;
+}
 .features > div {
 	text-align: center;
 	font-size: 0.9rem;
-	padding: 2rem 1.4rem;
+	padding: 0 1.4rem;
 }
 .features > div h2 {
 	font-size: 2rem;
@@ -252,6 +258,7 @@ body.mobile-menu-open::after {
 	grid-template-columns: 4rem 1fr;
 	grid-template-rows: 2rem 1fr;
 	margin: unset;
+	margin-bottom: 3rem;
 }
 .feature-short {
 	color: var(--dark-blue);
@@ -262,12 +269,14 @@ body.mobile-menu-open::after {
 	padding: 0.5rem 0.5rem 0.5rem 3rem;
 	margin-left: -2.7rem;
 	font-size: 1rem;
+	line-height: 1rem;
 }
 .feature-short + p {
+	font-size: 0.9rem;
 	grid-row-start: 2;
 	grid-column-start: 1;
 	grid-column-end: 3;
-	padding-right: 2rem;
+	padding: 1rem 0.5rem 0rem 0rem;
 }
 /* END FEATURES SECTION */
 

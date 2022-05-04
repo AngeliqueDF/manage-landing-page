@@ -53,6 +53,9 @@ header img {
 	margin-top: 1rem;
 	width: 80%;
 }
+header .cta-button {
+	display: none;
+}
 /* END LAYOUT */
 
 /* COLORS AND TYPOGRAPHY */

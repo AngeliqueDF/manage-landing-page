@@ -280,6 +280,73 @@ body.mobile-menu-open::after {
 }
 /* END FEATURES SECTION */
 
+/* TESTIMONIALS SECTION */
+#testimonials-background {
+	display: none;
+}
+.testimonials {
+	padding: 0rem 1rem;
+	text-align: center;
+}
+.testimonials > div {
+	margin-bottom: 3rem;
+}
+.slider {
+	padding-top: 4rem;
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+	margin-bottom: 1rem;
+}
+.slider-buttons {
+	margin: 0 auto;
+	width: 15%;
+	display: flex;
+	justify-content: space-between;
+}
+.slider-buttons button {
+	content: "";
+	width: 0.1rem;
+	height: 0.1rem;
+	padding: 0.25rem;
+	border: 1px solid var(--bright-red);
+	border-radius: 100%;
+	background-color: white;
+}
+.current-slider {
+	background-color: var(--bright-red) !important;
+}
+
+.testimonials article {
+	min-width: 90%;
+	margin-right: 1rem;
+}
+.testimonials article {
+	position: relative;
+	text-align: center;
+	padding: 2rem 1rem;
+	font-size: 0.9rem;
+	width: 80%;
+}
+.testimonials article img {
+	position: absolute;
+	top: -10%;
+	left: 50%;
+	transform: translate(-50%, -10%);
+	right: 50%;
+	width: 3.5rem;
+	z-index: 3;
+}
+.testimonials article h3 {
+	margin: 1rem auto;
+	font-size: 0.8rem;
+	font-weight: 700;
+}
+.testimonials .cta-button {
+	margin-bottom: 2rem;
+}
+/* END TESTIMONIALS SECTION */
+
 .attribution {
 	font-size: 11px;
 	text-align: center;

@@ -211,6 +211,12 @@ body.mobile-menu-open::after {
 .hero {
 	display: flex;
 	flex-direction: column;
+	margin: unset;
+	padding-bottom: 5rem;
+	background-image: url(/src/images/bg-tablet-pattern.svg);
+	background-repeat: no-repeat;
+	background-position: top 60vh right -31vw;
+	background-size: 70% auto;
 }
 .hero > div {
 	order: 1;
@@ -220,8 +226,12 @@ body.mobile-menu-open::after {
 .hero > div h2 {
 	font-size: 2rem;
 }
+.hero p {
+	margin-bottom: 1rem;
+}
 /* END HERO SECTION */
 
+}
 /* FEATURES SECTION */
 .features > div {
 	text-align: center;

@@ -453,4 +453,14 @@ footer small {
 		display: none;
 	}
 	/* END HEADER */
+
+	/* Shared layout rules */
+	header,
+	.hero,
+	.features,
+	section.cta,
+	footer {
+		padding: 3rem 10vw;
+	}
+
 }

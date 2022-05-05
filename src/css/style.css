@@ -463,4 +463,30 @@ footer small {
 		padding: 3rem 10vw;
 	}
 
+	/* HERO SECTION */
+	.hero {
+		justify-content: space-between;
+		flex-direction: unset;
+		align-items: center;
+
+		padding-top: 5rem;
+		background-image: unset;
+	}
+
+	section.cta,
+	.features > div,
+	.hero > div,
+	h2 {
+		text-align: unset;
+	}
+	.hero .copy {
+		order: 1;
+		width: 25%;
+	}
+	.hero img {
+		order: 2;
+		width: 50%;
+		margin-right: -1rem;
+	}
+	/* END HERO SECTION */
 }

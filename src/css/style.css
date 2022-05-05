@@ -545,4 +545,19 @@ footer small {
 		margin-right: 1.5rem;
 	}
 	/* END TESTIMONIALS SECTION */
+
+	/* CTA SECTION */
+	section.cta {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	section.cta p {
+		width: 38%;
+		margin: unset;
+	}
+	section.cta .cta-button {
+		height: 2.5rem;
+	}
+	/* END CTA SECTION */
 }

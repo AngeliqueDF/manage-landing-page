@@ -489,4 +489,37 @@ footer small {
 		margin-right: -1rem;
 	}
 	/* END HERO SECTION */
+
+	/* FEATURES SECTION */
+	.features {
+		display: flex;
+		justify-content: space-between;
+	}
+	.features li {
+		min-height: unset;
+		grid-template-columns: 5rem 1fr;
+
+		width: 91%;
+	}
+	.features li::before {
+		padding: 1.3rem 0;
+		line-height: 0.2rem;
+	}
+	.features .copy {
+		padding: unset;
+		width: 32%;
+	}
+	.features .copy p {
+		padding-right: 2.2rem;
+	}
+	.features ol {
+		width: 47%;
+	}
+	.feature-short {
+		background-color: unset;
+	}
+	.feature-short + p {
+		grid-column-start: 2;
+	}
+	/* END FEATURES SECTION */
 }

@@ -522,4 +522,27 @@ footer small {
 		grid-column-start: 2;
 	}
 	/* END FEATURES SECTION */
+
+	/* TESTIMONIALS SECTION */
+	.testimonials {
+		position: relative;
+		background-color: transparent;
+		padding: unset;
+		padding-bottom: 6rem;
+	}
+	.testimonials > img {
+		display: block;
+		position: absolute;
+		top: -17rem;
+		left: -19rem;
+		width: 33rem;
+	}
+	.slider-buttons {
+		display: none;
+	}
+	.slider article {
+		min-width: 33%;
+		margin-right: 1.5rem;
+	}
+	/* END TESTIMONIALS SECTION */
 }

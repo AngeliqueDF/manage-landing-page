@@ -426,3 +426,31 @@ footer small {
 }
 /* END FOOTER */
 
+@media screen and (min-width: 1440px) {
+	body {
+		background-position: top -33vh right -24vw;
+		background-size: 70% auto;
+	}
+	.cta-button {
+		padding: 0.8rem 2rem;
+	}
+
+	/* HEADER */
+	header {
+		justify-content: space-between;
+	}
+	header nav {
+		/* make the nav visible */
+		display: flex;
+		justify-content: space-around;
+		width: 33%;
+	}
+	/* display the CTA button which was hidden on mobile  */
+	header .cta-button {
+		display: block;
+	}
+	button.toggle-mobile-menu {
+		display: none;
+	}
+	/* END HEADER */
+}

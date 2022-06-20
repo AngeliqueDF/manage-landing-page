@@ -9,14 +9,10 @@ window.addEventListener("DOMContentLoaded", (event) => {
 	const slider = Slider(sliderElement, testimonials, sliderButtons);
 	const testimonialsIntervalID = slider.autoSlideTestimonials();
 
+	// Listen for click events on all slider inticators (sliderButtons)
 	Array.from(sliderButtons).forEach((button, index) => {
 		button.addEventListener("click", function (e) {
-			clearInterval(intervalID);
-			clearSliderIndicator();
-
-			this.classList.add("current-slider");
-
-			scrollToTestimonial(index);
+			slider.viewTestimonial(e.target, index, testimonialsIntervalID);
 		});
 	});
 

@@ -430,8 +430,8 @@ footer small {
 
 @media screen and (min-width: 1440px) {
 	body {
-		background-position: top -33vh right -24vw;
-		background-size: 70% auto;
+		background-position: top -13rem right -13rem;
+		background-size: 60% auto;
 	}
 	.cta-button {
 		padding: 0.8rem 2rem;

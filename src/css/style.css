@@ -124,10 +124,6 @@ footer li {
 	list-style-type: none;
 }
 
-.testimonials article {
-	background-color: var(--very-light-gray);
-}
-
 .toggle-mobile-menu {
 	background-image: url("./../images/icon-hamburger.svg");
 	background-position: center right;
@@ -287,6 +283,7 @@ body.mobile-menu-open::after {
 #testimonials-background {
 	display: none;
 }
+
 .testimonials {
 	padding: 0rem 1rem;
 	text-align: center;
@@ -319,17 +316,15 @@ body.mobile-menu-open::after {
 .current-slider {
 	background-color: var(--bright-red) !important;
 }
-
 .testimonials article {
-	min-width: 90%;
-	margin-right: 1rem;
-}
-.testimonials article {
+	min-width: 80vw;
+	min-height: 10rem;
+	margin: 0 0.5rem;
 	position: relative;
 	text-align: center;
 	padding: 2rem 1rem;
 	font-size: 0.9rem;
-	width: 80%;
+	background-color: var(--very-light-gray);
 }
 .testimonials article img {
 	position: absolute;
@@ -542,6 +537,9 @@ footer small {
 		background-color: transparent;
 		padding: unset;
 		padding-bottom: 6rem;
+	}
+	.testimonials article {
+		min-height: 8rem;
 	}
 	.testimonials > img {
 		display: block;

@@ -214,11 +214,11 @@ body.mobile-menu-open::after {
 	display: flex;
 	flex-direction: column;
 	margin: unset;
-	padding-bottom: 5rem;
+	padding-bottom: 6rem;
 	background-image: url(/src/images/bg-tablet-pattern.svg);
 	background-repeat: no-repeat;
-	background-position: top 60vh right -31vw;
-	background-size: 70% auto;
+	background-position: top 27rem right -15rem;
+	background-size: 100% auto;
 }
 .hero > div {
 	order: 1;

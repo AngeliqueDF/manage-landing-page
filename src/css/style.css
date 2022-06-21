@@ -534,6 +534,9 @@ footer small {
 		padding: unset;
 		padding-bottom: 6rem;
 	}
+	.testimonials article {
+		min-height: 8rem;
+	}
 	.testimonials > img {
 		display: block;
 		position: absolute;

@@ -107,7 +107,6 @@ li {
 	content: counter(features-counter, decimal-leading-zero);
 	counter-increment: features-counter;
 	background: var(--bright-red);
-	padding: 0.1rem 1.5rem;
 	border-radius: 3rem;
 	display: inline-block;
 	line-height: 2rem;

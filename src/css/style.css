@@ -104,6 +104,8 @@ li {
 	margin: 0.25rem;
 }
 .features li::before {
+	content: counter(features-counter, decimal-leading-zero);
+	counter-increment: features-counter;
 	background: var(--bright-red);
 	padding: 0.1rem 1.5rem;
 	border-radius: 3rem;

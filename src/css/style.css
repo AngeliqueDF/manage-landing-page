@@ -488,6 +488,9 @@ footer small {
 		order: 1;
 		width: 25%;
 	}
+	.hero p {
+		font-size: 0.8rem;
+	}
 	.hero img {
 		order: 2;
 		width: 50%;

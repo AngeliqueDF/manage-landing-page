@@ -69,8 +69,8 @@ body {
 	color: var(--dark-blue);
 	background-image: url("./../images/bg-tablet-pattern.svg");
 	background-repeat: no-repeat;
-	background-position: top -5vh right -15vw;
-	background-size: 100% auto;
+	background-position: top -16vh right -38vw;
+	background-size: 125% auto;
 	counter-reset: features-counter;
 }
 
@@ -214,11 +214,11 @@ body.mobile-menu-open::after {
 	display: flex;
 	flex-direction: column;
 	margin: unset;
-	padding-bottom: 5rem;
+	padding-bottom: 6rem;
 	background-image: url(/src/images/bg-tablet-pattern.svg);
 	background-repeat: no-repeat;
-	background-position: top 60vh right -31vw;
-	background-size: 70% auto;
+	background-position: top 27rem right -15rem;
+	background-size: 100% auto;
 }
 .hero > div {
 	order: 1;
@@ -230,6 +230,7 @@ body.mobile-menu-open::after {
 }
 .hero p {
 	margin-bottom: 1rem;
+	line-height: 1.8rem;
 }
 /* END HERO SECTION */
 
@@ -430,8 +431,8 @@ footer small {
 
 @media screen and (min-width: 1440px) {
 	body {
-		background-position: top -33vh right -24vw;
-		background-size: 70% auto;
+		background-position: top -13rem right -13rem;
+		background-size: 60% auto;
 	}
 	.cta-button {
 		padding: 0.8rem 2rem;
@@ -526,6 +527,11 @@ footer small {
 	/* END FEATURES SECTION */
 
 	/* TESTIMONIALS SECTION */
+	#testimonials-background {
+		display: block;
+		transform: translate(-5rem, -3.5rem);
+		width: 50vw;
+	}
 	.testimonials {
 		position: relative;
 		background-color: transparent;

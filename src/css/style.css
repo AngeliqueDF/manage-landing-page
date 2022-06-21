@@ -71,6 +71,7 @@ body {
 	background-repeat: no-repeat;
 	background-position: top -5vh right -15vw;
 	background-size: 100% auto;
+	counter-reset: features-counter;
 }
 
 h2 {
@@ -97,16 +98,15 @@ p {
 }
 ol {
 	list-style: none;
-	counter-reset: counter;
 }
 li {
 	counter-increment: counter;
 	margin: 0.25rem;
 }
 .features li::before {
-	content: counter(counter);
+	content: counter(features-counter, decimal-leading-zero);
+	counter-increment: features-counter;
 	background: var(--bright-red);
-	padding: 0.1rem 1.5rem;
 	border-radius: 3rem;
 	display: inline-block;
 	line-height: 2rem;

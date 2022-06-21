@@ -484,6 +484,7 @@ footer small {
 		text-align: unset;
 	}
 	.hero .copy {
+		padding: unset;
 		order: 1;
 		width: 25%;
 	}

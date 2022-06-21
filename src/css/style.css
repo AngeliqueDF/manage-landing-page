@@ -446,7 +446,8 @@ footer small {
 		/* make the nav visible */
 		display: flex;
 		justify-content: space-around;
-		width: 33%;
+		width: 38%;
+		font-size: 0.6rem;
 	}
 	/* display the CTA button which was hidden on mobile  */
 	header .cta-button {

@@ -230,6 +230,7 @@ body.mobile-menu-open::after {
 }
 .hero p {
 	margin-bottom: 1rem;
+	line-height: 1.8rem;
 }
 /* END HERO SECTION */
 

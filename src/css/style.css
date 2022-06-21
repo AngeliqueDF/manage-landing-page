@@ -69,8 +69,8 @@ body {
 	color: var(--dark-blue);
 	background-image: url("./../images/bg-tablet-pattern.svg");
 	background-repeat: no-repeat;
-	background-position: top -5vh right -15vw;
-	background-size: 100% auto;
+	background-position: top -16vh right -38vw;
+	background-size: 125% auto;
 	counter-reset: features-counter;
 }
 

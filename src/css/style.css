@@ -134,7 +134,7 @@ footer li {
 	background-repeat: no-repeat;
 }
 
-section.cta {
+.cta {
 	background-color: var(--bright-red);
 	color: var(--very-light-gray);
 }
@@ -348,11 +348,11 @@ body.mobile-menu-open::after {
 /* END TESTIMONIALS SECTION */
 
 /* CTA SECTION */
-section.cta {
+.cta {
 	padding: 4rem 2rem;
 	text-align: center;
 }
-section.cta p {
+.cta p {
 	font-size: 2.3rem;
 	line-height: 3rem;
 	margin-bottom: 2rem;
@@ -458,7 +458,7 @@ footer small {
 	header,
 	.hero,
 	.features,
-	section.cta,
+	.cta,
 	footer {
 		padding: 3rem 10vw;
 	}
@@ -473,7 +473,7 @@ footer small {
 		background-image: unset;
 	}
 
-	section.cta,
+	.cta,
 	.features > div,
 	.hero > div,
 	h2 {
@@ -547,16 +547,16 @@ footer small {
 	/* END TESTIMONIALS SECTION */
 
 	/* CTA SECTION */
-	section.cta {
+	.cta {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
 	}
-	section.cta p {
+	.cta p {
 		width: 38%;
 		margin: unset;
 	}
-	section.cta .cta-button {
+	.cta .cta-button {
 		height: 2.5rem;
 	}
 	/* END CTA SECTION */

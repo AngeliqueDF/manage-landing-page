@@ -638,9 +638,11 @@ footer small {
 	}
 	.sitemap {
 		order: unset;
+		margin: unset;
 	}
 	.newsletter-form {
 		order: unset;
+		padding: unset;
 	}
 
 	.attribution {

@@ -135,6 +135,8 @@ footer li {
 .cta-section {
 	background-color: var(--bright-red);
 	color: var(--very-light-gray);
+	background-image: url("./../images/bg-simplify-section-mobile.svg");
+	background-repeat: no-repeat;
 }
 
 footer {

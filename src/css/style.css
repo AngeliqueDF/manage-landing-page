@@ -588,6 +588,9 @@ footer small {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
+		background-image: url("./../images//bg-simplify-section-desktop.svg");
+		background-repeat: no-repeat;
+		background-position: 9rem -7rem;
 	}
 	.cta-section p {
 		font-size: 1.9rem;

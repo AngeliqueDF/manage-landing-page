@@ -238,8 +238,8 @@ body.mobile-menu-open::after {
 	line-height: 3rem;
 }
 /* FEATURES SECTION */
-.features {
-	margin-bottom: 4rem;
+.features .copy {
+	margin-block-end: 4rem;
 }
 .features > div {
 	text-align: center;

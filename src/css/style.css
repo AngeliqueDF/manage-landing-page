@@ -506,12 +506,22 @@ footer small {
 
 		padding-top: 5rem;
 		background-image: unset;
+		justify-content: space-between;
+		flex-direction: unset;
+		align-items: unset;
+		padding-top: 5rem;
+		background-image: unset;
 	}
 
 	.hero .copy {
 		padding: unset;
 		order: 1;
 		width: 25%;
+		padding: unset;
+		order: 1;
+		width: 45%;
+		font-size: 1rem;
+		padding-block-start: 4.5rem;
 	}
 	.hero p {
 		font-size: 0.8rem;
@@ -520,6 +530,23 @@ footer small {
 		order: 2;
 		width: 50%;
 		margin-right: -1rem;
+	}
+
+	.hero > div h2,
+	.features > div h2 {
+		line-height: 3.7rem;
+		font-size: 3rem;
+	}
+
+	.hero p {
+		font-size: 1rem;
+		line-height: 2rem;
+		max-width: 66%;
+	}
+
+	.hero > div h2 {
+		line-height: 3.7rem;
+		font-size: 3.4rem;
 	}
 	/* END HERO SECTION */
 

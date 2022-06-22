@@ -319,7 +319,7 @@ body.mobile-menu-open::after {
 .current-slider {
 	background-color: var(--bright-red) !important;
 }
-.testimonials article {
+.slider article {
 	min-width: 80vw;
 	min-height: 10rem;
 	margin: 0 0.5rem;
@@ -329,7 +329,7 @@ body.mobile-menu-open::after {
 	font-size: 0.9rem;
 	background-color: var(--very-light-gray);
 }
-.testimonials article img {
+.slider article img {
 	position: absolute;
 	top: -10%;
 	left: 50%;
@@ -338,7 +338,7 @@ body.mobile-menu-open::after {
 	width: 3.5rem;
 	z-index: 3;
 }
-.testimonials article h3 {
+.slider article h3 {
 	margin: 1rem auto;
 	font-size: 0.8rem;
 	font-weight: 700;

@@ -547,6 +547,9 @@ footer small {
 	/* END HERO SECTION */
 
 	/* FEATURES SECTION */
+	.features > div h2 {
+		font-size: 2.1rem;
+	}
 	.features {
 		display: flex;
 		justify-content: space-between;
@@ -576,6 +579,18 @@ footer small {
 	}
 	.feature-short + p {
 		grid-column-start: 2;
+	}
+	.features > div h2 {
+		line-height: 2.5rem;
+		font-size: 2.1rem;
+	}
+	.features .copy {
+		width: 34%;
+	}
+	.features .copy p {
+		padding-right: 2.2rem;
+		font-size: 1.1rem;
+		line-height: 1.6rem;
 	}
 	/* END FEATURES SECTION */
 

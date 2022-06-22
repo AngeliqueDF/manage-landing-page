@@ -747,3 +747,25 @@ footer small {
 }
 /* END HOVER COMPATIBLE DEVICES */
 
+/* TOUCH SCREENS */
+@media (hover: none) {
+	.cta-button:active {
+		opacity: 60%;
+	}
+
+	.sitemap a:active {
+		cursor: pointer;
+		color: var(--bright-red);
+	}
+
+	.cta-section > .cta-button:active {
+		opacity: unset;
+		color: hsla(12, 88%, 59%, 50%);
+	}
+
+	.social-links ul img:active {
+		filter: contrast(0) grayscale(0%) sepia(100%) saturate(300%)
+			hue-rotate(320deg);
+	}
+}
+/* END TOUCH SCREENS */

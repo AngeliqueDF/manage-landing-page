@@ -96,6 +96,7 @@ p {
 .cta-section > .cta-button {
 	background-color: white;
 	color: var(--bright-red);
+	font-weight: bold;
 	box-shadow: 0 0.25rem 8px rgba(120, 120, 120, 40%);
 }
 ol {

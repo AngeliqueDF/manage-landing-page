@@ -608,7 +608,7 @@ footer small {
 	.testimonials article {
 		position: relative;
 	}
-	.testimonials > img {
+	.testimonials img {
 		display: block;
 		position: absolute;
 		top: -17rem;

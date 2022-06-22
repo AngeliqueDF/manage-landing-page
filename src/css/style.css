@@ -489,6 +489,12 @@ footer small {
 	footer {
 		padding: 3rem 10vw;
 	}
+	.cta-section,
+	.features > div,
+	.hero > div,
+	h2 {
+		text-align: unset;
+	}
 
 	/* HERO SECTION */
 	.hero {
@@ -500,12 +506,6 @@ footer small {
 		background-image: unset;
 	}
 
-	.cta,
-	.features > div,
-	.hero > div,
-	h2 {
-		text-align: unset;
-	}
 	.hero .copy {
 		order: 1;
 		width: 25%;

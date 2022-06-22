@@ -601,13 +601,13 @@ footer small {
 		width: 50vw;
 	}
 	.testimonials {
-		position: relative;
 		background-color: transparent;
 		padding: unset;
 		padding-bottom: 6rem;
 	}
 	.testimonials article {
 		min-height: 8rem;
+		position: relative;
 	}
 	.testimonials > img {
 		display: block;

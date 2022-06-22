@@ -150,6 +150,7 @@ footer input {
 }
 
 footer input[type="submit"] {
+	font-weight: bold;
 	color: white;
 	background-color: var(--bright-red);
 }
@@ -362,7 +363,49 @@ body.mobile-menu-open::after {
 footer {
 	display: flex;
 	flex-direction: column;
-	padding: 2rem;
+	padding: 1rem;
+}
+
+.newsletter-form {
+	order: 1;
+	margin-bottom: 2rem;
+	padding: 2rem 0.5rem;
+}
+
+.newsletter-form form {
+	display: flex;
+	justify-content: space-between;
+}
+
+input[type="email"],
+input[type="submit"] {
+	font-size: 0.7rem;
+}
+
+input[type="email"] {
+	min-width: 60%;
+	margin-right: 0.5rem;
+}
+
+input[type="submit"] {
+	text-transform: uppercase;
+	padding: 1rem 2rem;
+}
+
+.newsletter-form input[type="text"] {
+	width: 60%;
+}
+
+.sitemap {
+	order: 2;
+	font-size: 0.9rem;
+	padding: 0 2rem;
+	margin-bottom: 2rem;
+	display: flex;
+	justify-content: space-between;
+}
+.sitemap li {
+	margin-bottom: 1rem;
 }
 
 .social-links {
@@ -370,42 +413,24 @@ footer {
 
 	display: flex;
 	flex-direction: column;
+	padding: 0 1rem;
+	text-align: center;
 }
-.social-links > img {
-	order: 2;
-	width: 54%;
-	margin: 0 auto 3rem;
-}
+
 .social-links ul {
 	order: 1;
-	column-count: 2;
-	margin-bottom: 3rem;
 	display: flex;
 	justify-content: space-between;
 }
-.social-links li img {
-	width: 2.5rem;
-}
-
-.sitemap {
+.social-links a {
 	order: 2;
-	padding-left: 1rem;
-	margin-bottom: 2rem;
 }
-.sitemap ul {
-	column-count: 2;
+.social-links img {
+	width: 54%;
+	margin: 0 auto 3rem;
 }
-.sitemap ul li {
-	margin-bottom: 1rem;
-}
-
-.newsletter-form {
-	order: 1;
-	margin-bottom: 2rem;
-}
-
-.newsletter-form input[type="text"] {
-	width: 60%;
+.social-links li img {
+	width: 2rem;
 }
 
 footer small {
@@ -418,6 +443,10 @@ footer small {
 	font-size: 11px;
 	text-align: center;
 	order: 5;
+	position: fixed;
+	bottom: 1rem;
+	left: 0;
+	right: 0;
 }
 .attribution a {
 	color: hsl(228, 45%, 44%);
@@ -442,7 +471,6 @@ footer small {
 		display: flex;
 		justify-content: space-around;
 		width: 38%;
-		font-size: 0.6rem;
 	}
 	/* display the CTA button which was hidden on mobile  */
 	header .cta-button {

@@ -474,6 +474,9 @@ footer small {
 		justify-content: space-around;
 		width: 38%;
 	}
+	header nav a {
+		font-size: 0.8rem;
+	}
 	/* display the CTA button which was hidden on mobile  */
 	header .cta-button {
 		display: block;

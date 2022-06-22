@@ -605,23 +605,19 @@ footer small {
 		width: 50vw;
 	}
 	.testimonials {
-		position: relative;
 		background-color: transparent;
 		padding: unset;
 		padding-bottom: 6rem;
 	}
 	.testimonials article {
-		min-height: 8rem;
+		position: relative;
 	}
-	.testimonials > img {
+	.testimonials img {
 		display: block;
 		position: absolute;
 		top: -17rem;
 		left: -19rem;
-		width: 33rem;
-	}
-	.slider-buttons {
-		display: none;
+		width: 36rem;
 	}
 	.slider article {
 		min-width: 33%;

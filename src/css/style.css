@@ -615,9 +615,27 @@ footer small {
 		left: -19rem;
 		width: 36rem;
 	}
+
 	.slider article {
-		min-width: 33%;
 		margin-right: 1.5rem;
+		min-width: 41vw;
+		padding: 3rem 2rem;
+	}
+	.slider article img {
+		width: 4.75rem;
+		top: -10%;
+	}
+
+	.slider article h3 {
+		font-size: 1.4rem;
+	}
+
+	.slider p {
+		line-height: 2rem;
+		font-size: 1.3rem;
+	}
+	.slider-buttons {
+		display: none;
 	}
 	/* END TESTIMONIALS SECTION */
 

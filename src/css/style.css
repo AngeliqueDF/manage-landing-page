@@ -693,13 +693,22 @@ footer small {
 		text-align: right;
 	}
 
-	.social-links img,
+	.social-links {
+		padding: unset;
+		justify-content: space-between;
+	}
+
+	.social-links img {
+		margin: unset;
+	}
+
+	.social-links a,
 	.newsletter-form form {
 		margin-bottom: auto;
 		order: unset;
 	}
 
-	.social-links ul img {
+	.social-links ul a {
 		width: 1.5rem;
 	}
 	.sitemap {
@@ -710,11 +719,9 @@ footer small {
 		order: unset;
 		padding: unset;
 	}
-
-	.attribution {
+	.copyright {
 		grid-column-start: 3;
 		text-align: right;
 	}
-
 	/* END FOOTER */
 }

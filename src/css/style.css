@@ -613,10 +613,7 @@ footer small {
 		position: absolute;
 		top: -17rem;
 		left: -19rem;
-		width: 33rem;
-	}
-	.slider-buttons {
-		display: none;
+		width: 36rem;
 	}
 	.slider article {
 		min-width: 33%;

@@ -588,6 +588,7 @@ footer small {
 		justify-content: space-between;
 	}
 	.cta-section p {
+		font-size: 1.9rem;
 		width: 38%;
 		margin: unset;
 	}

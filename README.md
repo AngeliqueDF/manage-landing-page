@@ -17,7 +17,7 @@ _A static landing page for a team management Saas product!_
 ## Links
 
 <p>
-<a href="https://github.com/AngeliqueDF/manage-landing-page">GitHub repo</a> • <a href="https://github.com/AngeliqueDF">Live demo </a>
+<a href="https://github.com/AngeliqueDF/manage-landing-page">GitHub repo</a> • <a href="[https://github.com/AngeliqueDF](https://stunning-sopapillas-58e3b3.netlify.app/)">Live demo </a>
 </p>
 
 <br />

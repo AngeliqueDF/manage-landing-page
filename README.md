@@ -1,6 +1,6 @@
 # Manage landing page
 
-![Screenshot of the Manage landing page](./src/images/desktop-screenshot.png)
+![Screenshot of the Manage landing page on desktop](./src/images/desktop-screenshot.png)
 
 <div align="center">
   <img src="./src/images/logo-html5.svg">
@@ -24,13 +24,17 @@ _A static landing page for a team management Saas product!_
 
 ## How to run the project
 
-1. `git clone https://github.com/AngeliqueDF/manage-landing-page MY-FOLDER-NAME`
-2. `cd MY-FOLDER-NAME`
+1. `git clone https://github.com/AngeliqueDF/manage-landing-page MY_FOLDER_NAME`
+2. `cd MY_FOLDER_NAME`
 3. `npm install`
 4. `npm start`
 5. visit `http://localhost:3000`
 
 <br />
+
+<p align="center">
+  <img src="./src/images/mobile-screenshot.png" alt="Screenshot of the Manage landing page on desktop" width="50%">
+</p>
 
 ## Features
 
@@ -44,6 +48,14 @@ _A static landing page for a team management Saas product!_
 - HTML.
 - CSS.
 - JavaScript.
+
+## Status
+
+### Planned changes
+
+- [ ] Improve accessibility.
+- [ ] Improve the slider user experience on desktop (any suggestion is welcome).
+- [ ] Improve the mobile menu user experience.
 
 ## Author
 

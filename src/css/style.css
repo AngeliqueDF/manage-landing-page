@@ -741,6 +741,15 @@ footer input[type="submit"] {
 		text-align: right;
 	}
 	/* END FOOTER */
+
+	@media (any-hover: hover) {
+		nav a:hover {
+			color: var(--dark-grayish-blue);
+		}
+		nav a:active {
+			color: var(--dark-blue);
+		}
+	}
 }
 
 /* HOVER COMPATIBLE DEVICES */

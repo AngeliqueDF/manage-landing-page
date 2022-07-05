@@ -401,11 +401,13 @@ footer input[type="submit"] {
 
 .sitemap {
 	order: 2;
-	font-size: 0.9rem;
-	padding: 0 2rem;
+	font-size: 0.8rem;
+	padding-inline-start: 10%;
 	margin-bottom: 2rem;
-	display: flex;
-	justify-content: space-between;
+	column-gap: 10%;
+	display: grid;
+	grid-template-rows: repeat(4, 1fr);
+	grid-template-columns: repeat(2, 1fr);
 }
 .sitemap li {
 	margin-bottom: 1rem;

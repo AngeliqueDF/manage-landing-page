@@ -61,7 +61,6 @@ header .cta-button {
 }
 /* END LAYOUT */
 
-/* COLORS AND TYPOGRAPHY */
 .hide {
 	display: none;
 }
@@ -160,7 +159,6 @@ footer input[type="submit"] {
 	color: white;
 	background-color: var(--bright-red);
 }
-/* END COLORS AND TYPOGRAPHY */
 
 .mobile-menu-open .toggle-mobile-menu {
 	background-image: url("./../images/icon-close.svg");

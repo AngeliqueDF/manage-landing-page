@@ -432,10 +432,9 @@ footer input[type="submit"] {
 	width: 2rem;
 }
 
-footer small {
+.copyright {
 	order: 4;
-	margin: 0rem auto 1rem;
-	font-size: 0.7rem;
+	font-size: 0.8rem;
 }
 
 .attribution {

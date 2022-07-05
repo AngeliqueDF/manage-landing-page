@@ -152,6 +152,12 @@ footer {
 }
 
 /* MOBILE MENU */
+
+/* Prevent scrolling when the mobile menu is open */
+body.mobile-menu-open {
+	overflow: hidden;
+}
+
 nav {
 	display: none;
 }

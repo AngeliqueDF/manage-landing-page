@@ -1,4 +1,5 @@
 import Slider from "./Slider";
+import InputValidator from "./InputValidator";
 import MobileMenu from "./MobileMenu";
 
 window.addEventListener("DOMContentLoaded", (event) => {
@@ -22,4 +23,25 @@ window.addEventListener("DOMContentLoaded", (event) => {
 		const mobileMenu = MobileMenu("nav");
 		mobileMenu.toggleMenu();
 	});
+
+	const emailFormSelector = ".newsletter-form form";
+	const emailInputSelector = '.newsletter-form input[type="text"]';
+	const validationFeedbackElementSelector = ".validation-feedback";
+
+	const inputValidator = InputValidator(
+		emailFormSelector,
+		emailInputSelector,
+		validationFeedbackElementSelector
+	);
+
+	document.querySelector(emailFormSelector).addEventListener("submit", (e) => {
+		e.preventDefault();
+		inputValidator.validateEmail(emailFormSelector);
+	});
+
+	document
+		.querySelector(emailInputSelector)
+		.addEventListener("keydown", (e) => {
+			inputValidator.removeFeedback();
+		});
 });

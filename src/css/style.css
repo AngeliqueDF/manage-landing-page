@@ -718,6 +718,11 @@ footer small {
 		order: unset;
 		padding: unset;
 	}
+
+	.newsletter-form input[type="text"] {
+		font-size: 1rem;
+	}
+
 	.copyright {
 		grid-column-start: 3;
 		text-align: right;

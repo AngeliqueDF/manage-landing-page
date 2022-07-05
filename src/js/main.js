@@ -19,7 +19,6 @@ window.addEventListener("DOMContentLoaded", (event) => {
 
 	const mobileMenuToggler = document.querySelector("button.toggle-mobile-menu");
 	mobileMenuToggler.addEventListener("click", () => {
-		headerNav.classList.toggle("mobile-menu-open");
 		const mobileMenu = MobileMenu("nav");
 		mobileMenu.toggleMenu();
 	});

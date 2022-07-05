@@ -154,12 +154,6 @@ footer input {
 	padding: 1rem 1.5rem;
 }
 
-footer input[type="submit"] {
-	font-weight: bold;
-	color: white;
-	background-color: var(--bright-red);
-}
-
 .mobile-menu-open .toggle-mobile-menu {
 	background-image: url("./../images/icon-close.svg");
 }
@@ -383,23 +377,26 @@ footer {
 	grid-template-columns: 73% 1fr;
 }
 
-input[type="email"],
+input[type="text"],
 input[type="submit"] {
 	font-size: 0.7rem;
 }
 
-input[type="email"] {
-	min-width: 60%;
-	margin-right: 0.5rem;
+input[type="text"] {
+	padding: 0 10%;
 }
 
-input[type="submit"] {
-	text-transform: uppercase;
-	padding: 1rem 2rem;
+footer input[type="submit"] {
+	font-weight: bold;
+	color: white;
+	background-color: var(--bright-red);
+	padding: 1% 2%;
+	grid-row-start: 1;
+	grid-column-start: 2;
 }
 
-.newsletter-form input[type="text"] {
-	width: 60%;
+}
+
 }
 
 .sitemap {

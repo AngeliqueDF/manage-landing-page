@@ -719,6 +719,9 @@ footer small {
 	.sitemap {
 		order: unset;
 		margin: unset;
+		display: grid;
+		grid-template-rows: repeat(4, 1fr);
+		grid-template-columns: repeat(2, 1fr);
 	}
 	.newsletter-form {
 		order: unset;

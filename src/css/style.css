@@ -669,7 +669,7 @@ footer small {
 		justify-content: space-between;
 
 		display: grid;
-		grid-template-columns: 20% 33% 26%;
+		grid-template-columns: 20% 40% 24%;
 	}
 	.social-links {
 		order: unset;

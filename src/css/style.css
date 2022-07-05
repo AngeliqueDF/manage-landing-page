@@ -486,6 +486,14 @@ footer input[type="submit"] {
 	button.toggle-mobile-menu {
 		display: none;
 	}
+
+	/* Mobile menu */
+	nav a {
+		display: inline-block;
+		padding: 1rem;
+	}
+	/* End mobile menu */
+
 	/* END HEADER */
 
 	/* Shared layout rules */

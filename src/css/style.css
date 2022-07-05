@@ -147,13 +147,6 @@ footer {
 	color: var(--dark-grayish-blue);
 }
 
-footer input {
-	border: unset;
-	border-radius: 12rem;
-	padding: 0.5rem 1rem;
-	padding: 1rem 1.5rem;
-}
-
 .mobile-menu-open .toggle-mobile-menu {
 	background-image: url("./../images/icon-close.svg");
 }
@@ -380,6 +373,8 @@ footer {
 input[type="text"],
 input[type="submit"] {
 	font-size: 0.7rem;
+	border: unset;
+	border-radius: 12rem;
 }
 
 input[type="text"] {

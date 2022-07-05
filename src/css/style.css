@@ -395,8 +395,22 @@ footer input[type="submit"] {
 	grid-column-start: 2;
 }
 
+.validation-feedback {
+	display: none;
+	font-size: 0.7rem;
+	margin: auto 0;
+	padding-inline-start: 1rem;
 }
 
+.invalid-input input[type="text"],
+.invalid-input p.validation-feedback {
+	color: red;
+}
+.invalid-input .validation-feedback {
+	font-style: italic;
+}
+.invalid-input input[type="text"]:focus {
+	outline: 2px solid var(--bright-red);
 }
 
 .sitemap {

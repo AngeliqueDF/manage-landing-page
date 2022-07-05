@@ -691,10 +691,6 @@ footer small {
 		margin: unset;
 		order: unset;
 	}
-	.newsletter-form {
-		display: flex;
-		flex-direction: column;
-	}
 
 	footer small {
 		text-align: right;
@@ -711,7 +707,6 @@ footer small {
 
 	.social-links a,
 	.newsletter-form form {
-		margin-bottom: auto;
 		order: unset;
 	}
 

@@ -385,7 +385,6 @@ footer input[type="submit"] {
 	font-weight: bold;
 	color: white;
 	background-color: var(--bright-red);
-	padding: 1% 2%;
 	grid-row-start: 1;
 	grid-column-start: 2;
 }

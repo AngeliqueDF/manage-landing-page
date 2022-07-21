@@ -1,6 +1,6 @@
 # Manage landing page
 
-![Screenshot of the Manage landing page on desktop](./src/images/desktop-screenshot.png)
+![Screenshot of the Manage landing page on desktop](./src/images/screenshot-manage-landing-page-desktop.png)
 
 <div align="center">
   <img src="./src/images/logo-html5.svg">
@@ -33,7 +33,7 @@ _A static landing page for a team management Saas product!_
 <br />
 
 <p align="center">
-  <img src="./src/images/mobile-screenshot.png" alt="Screenshot of the Manage landing page on desktop" width="50%">
+  <img src="./src/images/screenshot-manage-landing-page-mobile.png" alt="Screenshot of the Manage landing page on desktop" width="50%">
 </p>
 
 ## Features
